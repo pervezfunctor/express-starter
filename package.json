@@ -1,0 +1,45 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "Node Web API Starter using express and mongoose",
+  "main": "build/index.js",
+  "author": "Pervez Iqbal",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "backpack",
+    "build": "backpack build",
+    "lint:cmd": "tslint -p tsconfig.json -c tslint.json",
+    "lint": "yarn lint:cmd 'src/**/*.tsx' 'src/**/*.ts'",
+    "lint:fix": "yarn lint --fix",
+    "types": "tsc --noEmit -p .",
+    "types:watch": "yarn types --watch",
+    "validate": "yarn lint && yarn types"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fp-ts": "^1.17.0",
+    "io-ts": "^1.8.5",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.2",
+    "tcomb": "^3.2.29",
+    "tcomb-validation": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.1.23",
+    "@types/mongoose": "^5.3.26",
+    "backpack-core": "^0.8.3",
+    "source-map-loader": "^0.2.4",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-immutable": "^5.5.2",
+    "typescript": "^3.4.4"
+  }
+}
