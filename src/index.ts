@@ -13,6 +13,6 @@ const app = (() => {
   return app
 })()
 
-app.get('/hello', async (_, res) => {
+app.get('/', async (_, res) => {
   res.send('hello, world!')
 })
