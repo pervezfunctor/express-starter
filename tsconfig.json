@@ -9,9 +9,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
-    "noImplicitAny": true,
     "noImplicitReturns": true,
-    "noImplicitThis": true,
     "resolveJsonModule": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -25,7 +23,7 @@
       "name": "typescript-tslint-plugin",
       "alwaysShowRuleFailuresAsWarnings": true,
       "ignoreDefinitionFiles": false,
-      "configFile": "./tslint.commit.json",
+      "configFile": "./tslint.json",
       "suppressWhileTypeErrorsPresent": true,
       "jsEnable": false,
       "mockTypeScriptVersion": false
