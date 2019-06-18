@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "allowSyntheticDefaultImports": true,
     "checkJs": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -23,7 +22,7 @@
       "name": "typescript-tslint-plugin",
       "alwaysShowRuleFailuresAsWarnings": true,
       "ignoreDefinitionFiles": false,
-      "configFile": "./tslint.json",
+      "configFile": "tslint.json",
       "suppressWhileTypeErrorsPresent": true,
       "jsEnable": false,
       "mockTypeScriptVersion": false
